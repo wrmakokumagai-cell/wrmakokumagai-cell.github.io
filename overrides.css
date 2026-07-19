@@ -1,0 +1,30 @@
+.mk-logo,
+.profile-logo,
+.start-logo {
+  display: grid;
+  place-items: center;
+  color: #fff;
+  background:
+    linear-gradient(135deg, rgba(0, 166, 166, .35), transparent 45%),
+    linear-gradient(135deg, #001a4a, #00a6a6);
+  border: 2px solid #fff;
+  box-shadow: 2px 2px #111;
+  font: 700 18px var(--pixel);
+}
+
+.mk-logo {
+  width: 42px;
+  height: 42px;
+}
+
+.profile-logo {
+  width: 120px;
+  height: 124px;
+  font-size: 42px;
+}
+
+.start-logo {
+  width: 27px;
+  height: 27px;
+  font-size: 9px;
+}
